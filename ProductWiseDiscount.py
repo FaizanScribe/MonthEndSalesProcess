@@ -86,4 +86,3 @@ sheetY['H3'].options(transpose=True).value = u167Disc
 sheetY['I3'].options(transpose=True).value = nDelDisc
 sheetY['J3'].options(transpose=True).value = tuple(map(lambda a, b, c, d: a+b+c+d, u150Amount, u156Amount, u167Amount,nDelAmount ))
 
-print("THIS IS A TEST")
