@@ -3,7 +3,6 @@
 
 import xlwings as xw
 import pandas as pd
-import LastEmptyRow
 import AllCustTuple
 
 fileName = "C:\\Users\\USER\\Desktop\\BizomDiscounting\\March 24.xlsm"
