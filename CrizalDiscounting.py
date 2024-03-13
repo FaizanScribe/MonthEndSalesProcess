@@ -159,6 +159,65 @@ for cust in Customers:
     CrizalAmt += (Prod15REAmount + Prod15LEAmount)
     CrizalDisc += ((Prod15REAmount + Prod15LEAmount)/1.12)*SheetY.range('U24').value
 
+    Prod16REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T25').value), 'RE PRICE'].sum()
+    Prod16LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T25').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod16REAmount + Prod16LEAmount)
+    CrizalDisc += ((Prod16REAmount + Prod16LEAmount)/1.12)*SheetY.range('U25').value
+
+    Prod17REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T26').value), 'RE PRICE'].sum()
+    Prod17LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T26').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod17REAmount + Prod17LEAmount)
+    CrizalDisc += ((Prod17REAmount + Prod17LEAmount)/1.12)*SheetY.range('U26').value
+
+    Prod18REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T27').value), 'RE PRICE'].sum()
+    Prod18LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T27').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod18REAmount + Prod18LEAmount)
+    CrizalDisc += ((Prod18REAmount + Prod18LEAmount)/1.12)*SheetY.range('U27').value
+
+    Prod19REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T28').value), 'RE PRICE'].sum()
+    Prod19LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T28').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod19REAmount + Prod19LEAmount)
+    CrizalDisc += ((Prod19REAmount + Prod19LEAmount)/1.12)*SheetY.range('U28').value
+
+    Prod20REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T29').value), 'RE PRICE'].sum()
+    Prod20LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T29').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod20REAmount + Prod20LEAmount)
+    CrizalDisc += ((Prod20REAmount + Prod20LEAmount)/1.12)*SheetY.range('U29').value
+
+    Prod21REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T30').value), 'RE PRICE'].sum()
+    Prod21LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T30').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod21REAmount + Prod21LEAmount)
+    CrizalDisc += ((Prod21REAmount + Prod21LEAmount)/1.12)*SheetY.range('U30').value
+
+    Prod22REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T31').value), 'RE PRICE'].sum()
+    Prod22LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T31').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod22REAmount + Prod22LEAmount)
+    CrizalDisc += ((Prod22REAmount + Prod22LEAmount)/1.12)*SheetY.range('U31').value
+
+    Prod23REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T32').value), 'RE PRICE'].sum()
+    Prod23LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T32').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod23REAmount + Prod23LEAmount)
+    CrizalDisc += ((Prod23REAmount + Prod23LEAmount)/1.12)*SheetY.range('U32').value
+
+    Prod24REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T33').value), 'RE PRICE'].sum()
+    Prod24LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T33').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod24REAmount + Prod24LEAmount)
+    CrizalDisc += ((Prod24REAmount + Prod24LEAmount)/1.12)*SheetY.range('U33').value
+
+    Prod25REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T34').value), 'RE PRICE'].sum()
+    Prod26LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T34').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod25REAmount + Prod26LEAmount)
+    CrizalDisc += ((Prod25REAmount + Prod26LEAmount)/1.12)*SheetY.range('U34').value
+
+    Prod26REAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T34').value), 'RE PRICE'].sum()
+    Prod26LEAmount = df.loc[(df['CUSTOMER'] == cust) & (df['RE PRODUCT'] == SheetY.range('T34').value), 'LE PRICE'].sum()
+    CrizalAmt += (Prod26REAmount + Prod26LEAmount)
+    CrizalDisc += ((Prod26REAmount + Prod26LEAmount)/1.12)*SheetY.range('U34').value
+
+
+
+
+
 
     CrizalAmount += (CrizalAmt,)
     CrizalDiscount += (CrizalDisc,)
