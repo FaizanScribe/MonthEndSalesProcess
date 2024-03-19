@@ -43,4 +43,17 @@ for cust in customers:
 
 SheetX['AG4'].options(transpose=True).value = pricediffT
 
+# placing all values in the respective sheets
+
+count = 0
+for cust in customers:
+    wstemp = wb.sheets(cust)
+    wstemp.range('B19').value = "Bizom PriceDiff"
+    print(cust, "   ", pricediffT[count])
+    count += 1
+
+count = 0
+
+
+
 
