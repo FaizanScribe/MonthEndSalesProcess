@@ -42,3 +42,5 @@ for cust in customers:
     pricediff = 0
 
 SheetX['AG4'].options(transpose=True).value = pricediffT
+
+
