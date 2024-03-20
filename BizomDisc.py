@@ -49,6 +49,7 @@ count = 0
 for cust in customers:
     wstemp = wb.sheets(cust)
     wstemp.range('B19').value = "Bizom PriceDiff"
+    wstemp.range('D19').value = pricediffT[count]
     print(cust, "   ", pricediffT[count])
     count += 1
 
