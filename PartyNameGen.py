@@ -1,6 +1,6 @@
 import xlwings as xw
 
-fileName = "C:\\Users\\USER\\Desktop\\BizomDiscounting\\2. Feb24  - Copy.xlsm"
+fileName = "C:\\Users\\USER\\Desktop\\BizomDiscounting\\March 24.xlsm"
 
 wb = xw.Book(fileName)
 ws1 = wb.sheets[0]
