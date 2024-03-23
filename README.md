@@ -35,6 +35,8 @@ and in the respectivecells of the respective customers' sheet.
 
 6. In the end, generate a sales report.
 
+I used pandas, xlwings, openpyxl in the python script.
+
 
 
 
